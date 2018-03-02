@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/cube"
+        android:title="Cube Rotation"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/depth"
+        android:title="Depth Transformation"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/fadeout"
+        android:title="Fade Out"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/fan"
+        android:title="Fan Animation"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/fidge"
+        android:title="Fidget Animation"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/gate"
+        android:title="Gate Animation"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/hinge"
+        android:title="Hinge Animation"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/zoom"
+        android:title="Zoom Transaformation"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/flip"
+        android:title="Flip Animation"
+        app:showAsAction="never"
+        />
+
+</menu>
