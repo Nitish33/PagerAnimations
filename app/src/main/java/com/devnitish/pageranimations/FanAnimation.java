@@ -17,17 +17,23 @@ public class FanAnimation implements ViewPager.PageTransformer {
         page.setPivotY(0);
         page.setPivotX(0);
 
-        if(position<0){
-            page.setRotationY(-180*Math.abs(position));
+        if(position<=-1){
+            page.setAlpha(0);
+        }
+        else if(position<=0){
+            page.setAlpha(1);
+            page.setRotationY(-120*Math.abs(position));
 
         }
 
-        else if(position<1){
-            page.setRotationY(180*Math.abs(position));
+        else if(position<=1){
+            page.setAlpha(1);
+            page.setRotationY(120*Math.abs(position));
 
         }
 
         else if(position>1){
+            page.setAlpha(0);
         }
     }
 }

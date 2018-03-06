@@ -97,9 +97,13 @@ public class MainActivity extends AppCompatActivity {
                 mPager.setPageTransformer(true,flipAnimation);
                 break;
 
+            case R.id.toss: TossAnimation tossAnimation = new TossAnimation();
+                mPager.setPageTransformer(true,tossAnimation);
+                break;
 
-
-
+            case R.id.cubein: CubeIn cubeIn = new CubeIn();
+                mPager.setPageTransformer(true,cubeIn);
+                break;
 
         }
 

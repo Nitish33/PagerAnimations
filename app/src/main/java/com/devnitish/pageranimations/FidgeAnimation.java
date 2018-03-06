@@ -19,6 +19,7 @@ public class FidgeAnimation implements ViewPager.PageTransformer {
 
         if(Math.abs(position)>0.5)
             page.setVisibility(View.GONE);
+
         else if(Math.abs(position)<0.5) {
             page.setVisibility(View.VISIBLE);
             page.setScaleX(1-Math.abs(position));

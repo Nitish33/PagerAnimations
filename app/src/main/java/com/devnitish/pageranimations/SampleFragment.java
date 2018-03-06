@@ -41,11 +41,11 @@ public class SampleFragment extends Fragment {
 
         if(no%2==0) {
             textView.setTextColor(getResources().getColor(color));
-//            view.setBackgroundResource(color2);
+            view.setBackgroundResource(color2);
         }
         else {
             textView.setTextColor(getResources().getColor(color2));
-//            view.setBackgroundResource(color);
+            view.setBackgroundResource(color);
         }
 
 
