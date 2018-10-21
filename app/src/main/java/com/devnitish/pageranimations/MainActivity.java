@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.zoom: ZoomTransformation zoomTransformation = new ZoomTransformation();
                 mPager.setPageTransformer(true,zoomTransformation);
+
                 break;
 
             case R.id.flip: FlipAnimation flipAnimation = new FlipAnimation();
